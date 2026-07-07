@@ -1,0 +1,56 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Todo.Infrastructure/1.0.0": {
+        "dependencies": {
+          "Todo.Application": "1.0.0",
+          "Todo.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Todo.Infrastructure.dll": {}
+        }
+      },
+      "Todo.Application/1.0.0": {
+        "dependencies": {
+          "Todo.Domain": "1.0.0"
+        },
+        "runtime": {
+          "Todo.Application.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Todo.Domain/1.0.0": {
+        "runtime": {
+          "Todo.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Todo.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Todo.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Todo.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+D:\Development\TodoApplication\Backend\Todo.Application\bin\Debug\net10.0\Todo.Application.deps.json
+D:\Development\TodoApplication\Backend\Todo.Application\bin\Debug\net10.0\Todo.Application.dll
+D:\Development\TodoApplication\Backend\Todo.Application\bin\Debug\net10.0\Todo.Application.pdb
+D:\Development\TodoApplication\Backend\Todo.Application\bin\Debug\net10.0\Todo.Domain.dll
+D:\Development\TodoApplication\Backend\Todo.Application\bin\Debug\net10.0\Todo.Domain.pdb
+D:\Development\TodoApplication\Backend\Todo.Application\obj\Debug\net10.0\Todo.Application.csproj.AssemblyReference.cache
+D:\Development\TodoApplication\Backend\Todo.Application\obj\Debug\net10.0\Todo.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\TodoApplication\Backend\Todo.Application\obj\Debug\net10.0\Todo.Application.AssemblyInfoInputs.cache
+D:\Development\TodoApplication\Backend\Todo.Application\obj\Debug\net10.0\Todo.Application.AssemblyInfo.cs
+D:\Development\TodoApplication\Backend\Todo.Application\obj\Debug\net10.0\Todo.Application.csproj.CoreCompileInputs.cache
+D:\Development\TodoApplication\Backend\Todo.Application\obj\Debug\net10.0\Todo.App.468A55F7.Up2Date
+D:\Development\TodoApplication\Backend\Todo.Application\obj\Debug\net10.0\Todo.Application.dll
+D:\Development\TodoApplication\Backend\Todo.Application\obj\Debug\net10.0\refint\Todo.Application.dll
+D:\Development\TodoApplication\Backend\Todo.Application\obj\Debug\net10.0\Todo.Application.pdb
+D:\Development\TodoApplication\Backend\Todo.Application\obj\Debug\net10.0\ref\Todo.Application.dll
