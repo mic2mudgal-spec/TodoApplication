@@ -34,6 +34,7 @@ D:\Development\TodoApplication\Backend\Todo.Api\obj\Debug\net10.0\staticwebasset
 D:\Development\TodoApplication\Backend\Todo.Api\obj\Debug\net10.0\staticwebassets.development.json
 D:\Development\TodoApplication\Backend\Todo.Api\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 D:\Development\TodoApplication\Backend\Todo.Api\obj\Debug\net10.0\swae.build.ex.cache
+D:\Development\TodoApplication\Backend\Todo.Api\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 D:\Development\TodoApplication\Backend\Todo.Api\obj\Debug\net10.0\Todo.Api.csproj.Up2Date
 D:\Development\TodoApplication\Backend\Todo.Api\obj\Debug\net10.0\Todo.Api.dll
 D:\Development\TodoApplication\Backend\Todo.Api\obj\Debug\net10.0\refint\Todo.Api.dll
