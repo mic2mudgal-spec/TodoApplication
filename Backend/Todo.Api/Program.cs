@@ -1,21 +1,23 @@
+using Todo.Api.Middleware;
 using Todo.Application.DependencyInjection;
 using Todo.Infrastructure.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services
+// Services
 builder.Services.AddControllers();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Register Application and Infrastructure
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure();
 
 var app = builder.Build();
 
-// Configure pipeline
+// Global Exception Middleware
+app.UseMiddleware<ExceptionMiddleware>();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

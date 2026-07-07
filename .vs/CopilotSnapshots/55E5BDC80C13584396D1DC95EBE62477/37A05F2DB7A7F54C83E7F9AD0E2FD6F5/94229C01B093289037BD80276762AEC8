@@ -1,0 +1,82 @@
+﻿using Moq;
+using Todo.Application.DTOs.Requests;
+using Todo.Application.Exceptions;
+using Todo.Application.Services;
+using Todo.Domain.Entities;
+using Todo.Domain.Enums;
+using Todo.Domain.Interfaces;
+using Xunit;
+
+namespace Todo.Tests;
+
+public class TodoServiceTests
+{
+    private readonly Mock<ITodoRepository> _repositoryMock;
+    private readonly TodoService _service;
+
+    public TodoServiceTests()
+    {
+        _repositoryMock = new Mock<ITodoRepository>();
+
+        _service = new TodoService(_repositoryMock.Object);
+    }
+
+    [Fact]
+    public async Task CreateAsync_ShouldCreateTask_WhenRequestIsValid()
+    {
+        // Arrange
+        var request = new CreateTodoTaskRequest
+        {
+            Name = "Learn .NET 10",
+            Priority = 1,
+            Status = Enums.TaskStatus.NotStarted
+        };
+
+        _repositoryMock
+            .Setup(r => r.ExistsByNameAsync(request.Name))
+            .ReturnsAsync(false);
+
+        _repositoryMock
+            .Setup(r => r.AddAsync(It.IsAny<TodoTask>()))
+            .Returns(Task.CompletedTask);
+
+        // Act
+        var result = await _service.CreateAsync(request);
+
+        // Assert
+        Assert.NotNull(result);
+        Assert.Equal(request.Name, result.Name);
+        Assert.Equal(request.Priority, result.Priority);
+        Assert.Equal(request.Status, result.Status);
+
+        _repositoryMock.Verify(
+            r => r.AddAsync(It.IsAny<TodoTask>()),
+            Times.Once);
+    }
+
+    [Fact]
+    public async Task CreateAsync_ShouldThrowValidationException_WhenDuplicateNameExists()
+    {
+        // Arrange
+        var request = new CreateTodoTaskRequest
+        {
+            Name = "Duplicate Task",
+            Priority = 2,
+            Status = Enums.TaskStatus.NotStarted
+        };
+
+        _repositoryMock
+            .Setup(r => r.ExistsByNameAsync(request.Name))
+            .ReturnsAsync(true);
+
+        // Act & Assert
+        var exception = await Assert.ThrowsAsync<ValidationException>(
+            () => _service.CreateAsync(request));
+
+        Assert.Equal("Task name already exists.", exception.Message);
+
+        _repositoryMock.Verify(
+            r => r.AddAsync(It.IsAny<TodoTask>()),
+            Times.Never);
+    }
+}
