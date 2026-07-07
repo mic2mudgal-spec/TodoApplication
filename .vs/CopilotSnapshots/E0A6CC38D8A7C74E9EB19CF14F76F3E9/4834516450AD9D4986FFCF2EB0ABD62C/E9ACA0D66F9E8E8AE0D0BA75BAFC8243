@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <Compile Remove="DependencyInjection\ApplicationServiceCollectionExtensions.cs" />
+    <Compile Remove="DTOs\Requests\CreateTodoTaskRequest.cs" />
+    <Compile Remove="DTOs\Requests\TodoTaskResponse.cs" />
+    <Compile Remove="DTOs\Requests\UpdateTodoTaskRequest.cs" />
+    <Compile Remove="Exception\NotFoundException.cs" />
+    <Compile Remove="Exception\ValidationException.cs" />
+    <Compile Remove="Interfaces\ITodoService.cs" />
+    <Compile Remove="Services\TodoService.cs" />
+    <Compile Remove="Validation\ITaskValidator.cs" />
+    <Compile Remove="Validation\ValidationContext.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="DependencyInjection\ApplicationServiceCollectionExtensions.cs" />
+    <None Include="DTOs\Requests\CreateTodoTaskRequest.cs" />
+    <None Include="DTOs\Requests\TodoTaskResponse.cs" />
+    <None Include="DTOs\Requests\UpdateTodoTaskRequest.cs" />
+    <None Include="Exception\NotFoundException.cs" />
+    <None Include="Exception\ValidationException.cs" />
+    <None Include="Interfaces\ITodoService.cs" />
+    <None Include="Services\TodoService.cs" />
+    <None Include="Validation\ITaskValidator.cs" />
+    <None Include="Validation\ValidationContext.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Todo.Domain\Todo.Domain.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

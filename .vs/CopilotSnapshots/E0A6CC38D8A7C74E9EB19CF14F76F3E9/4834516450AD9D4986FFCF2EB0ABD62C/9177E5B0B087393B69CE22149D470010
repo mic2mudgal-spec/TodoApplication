@@ -1,9 +1,11 @@
-using Todo.Domain.Enums;
+﻿using Todo.Domain.Enums;
 
-namespace Todo.Application.DTOs.Requests;
+namespace Todo.Domain.Entities;
 
-public class CreateTodoTaskRequest
+public class TodoTask
 {
+    public Guid Id { get; set; }
+
     public string Name { get; set; } = string.Empty;
 
     public int Priority { get; set; }

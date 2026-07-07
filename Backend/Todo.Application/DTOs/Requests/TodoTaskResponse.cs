@@ -10,5 +10,5 @@ public class TodoTaskResponse
 
     public int Priority { get; set; }
 
-    public TaskStatus Status { get; set; }
+    public Todo.Domain.Enums.TaskStatus Status { get; set; }
 }

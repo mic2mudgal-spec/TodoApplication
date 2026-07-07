@@ -1,0 +1,14 @@
+﻿using Todo.Domain.Enums;
+
+namespace Todo.Application.DTOs.Responses;
+
+public class TodoTaskResponse
+{
+    public Guid Id { get; set; }
+
+    public string Name { get; set; } = string.Empty;
+
+    public int Priority { get; set; }
+
+    public Enums.TaskStatus Status { get; set; }
+}

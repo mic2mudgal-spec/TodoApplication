@@ -1,4 +1,4 @@
-using Todo.Domain.Enums;
+﻿using Todo.Domain.Enums;
 
 namespace Todo.Domain.Entities;
 

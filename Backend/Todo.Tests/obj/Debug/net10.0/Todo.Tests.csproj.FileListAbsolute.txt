@@ -1,5 +1,10 @@
 D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\.msCoverageSourceRootsMapping_Todo.Tests
 D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\CoverletSourceRootsMapping_Todo.Tests
+D:\Development\TodoApplication\Backend\Todo.Tests\obj\Debug\net10.0\Todo.Tests.csproj.AssemblyReference.cache
+D:\Development\TodoApplication\Backend\Todo.Tests\obj\Debug\net10.0\Todo.Tests.GeneratedMSBuildEditorConfig.editorconfig
+D:\Development\TodoApplication\Backend\Todo.Tests\obj\Debug\net10.0\Todo.Tests.AssemblyInfoInputs.cache
+D:\Development\TodoApplication\Backend\Todo.Tests\obj\Debug\net10.0\Todo.Tests.AssemblyInfo.cs
+D:\Development\TodoApplication\Backend\Todo.Tests\obj\Debug\net10.0\Todo.Tests.csproj.CoreCompileInputs.cache
 D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\testhost.dll
 D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\xunit.abstractions.dll
 D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\Todo.Api.deps.json
@@ -25,6 +30,9 @@ D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\Microsoft.Te
 D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\Microsoft.TestPlatform.Utilities.dll
 D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\Microsoft.VisualStudio.TestPlatform.Common.dll
 D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\Newtonsoft.Json.dll
+D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\xunit.assert.dll
 D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\xunit.core.dll
 D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\xunit.execution.dotnet.dll
@@ -101,11 +109,6 @@ D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\Todo.Domain.
 D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\Todo.Application.pdb
 D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\Todo.Infrastructure.pdb
 D:\Development\TodoApplication\Backend\Todo.Tests\bin\Debug\net10.0\Todo.Api.pdb
-D:\Development\TodoApplication\Backend\Todo.Tests\obj\Debug\net10.0\Todo.Tests.csproj.AssemblyReference.cache
-D:\Development\TodoApplication\Backend\Todo.Tests\obj\Debug\net10.0\Todo.Tests.GeneratedMSBuildEditorConfig.editorconfig
-D:\Development\TodoApplication\Backend\Todo.Tests\obj\Debug\net10.0\Todo.Tests.AssemblyInfoInputs.cache
-D:\Development\TodoApplication\Backend\Todo.Tests\obj\Debug\net10.0\Todo.Tests.AssemblyInfo.cs
-D:\Development\TodoApplication\Backend\Todo.Tests\obj\Debug\net10.0\Todo.Tests.csproj.CoreCompileInputs.cache
 D:\Development\TodoApplication\Backend\Todo.Tests\obj\Debug\net10.0\Todo.Tests.csproj.Up2Date
 D:\Development\TodoApplication\Backend\Todo.Tests\obj\Debug\net10.0\Todo.Tests.dll
 D:\Development\TodoApplication\Backend\Todo.Tests\obj\Debug\net10.0\refint\Todo.Tests.dll

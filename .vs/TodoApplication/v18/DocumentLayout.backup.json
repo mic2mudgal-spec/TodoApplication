@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Development\\TodoApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0456DF-79F2-4D0E-B43F-2BDE7E91CFBA}|Backend\\Todo.Api\\Todo.Api.csproj|d:\\development\\todoapplication\\backend\\todo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F0456DF-79F2-4D0E-B43F-2BDE7E91CFBA}|Backend\\Todo.Api\\Todo.Api.csproj|solutionrelative:backend\\todo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F0456DF-79F2-4D0E-B43F-2BDE7E91CFBA}|Backend\\Todo.Api\\Todo.Api.csproj|d:\\development\\todoapplication\\backend\\todo.api\\todo.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6F0456DF-79F2-4D0E-B43F-2BDE7E91CFBA}|Backend\\Todo.Api\\Todo.Api.csproj|solutionrelative:backend\\todo.api\\todo.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3CFC858-502F-4A24-8A83-665647519DDC}|Backend\\Todo.Application\\Todo.Application.csproj|d:\\development\\todoapplication\\backend\\todo.application\\todo.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A3CFC858-502F-4A24-8A83-665647519DDC}|Backend\\Todo.Application\\Todo.Application.csproj|solutionrelative:backend\\todo.application\\todo.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{744BB5AF-D0D7-4A03-A8EA-4F2D8F1F2E9F}|Backend\\Todo.Infrastructure\\Todo.Infrastructure.csproj|d:\\development\\todoapplication\\backend\\todo.infrastructure\\todo.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{744BB5AF-D0D7-4A03-A8EA-4F2D8F1F2E9F}|Backend\\Todo.Infrastructure\\Todo.Infrastructure.csproj|solutionrelative:backend\\todo.infrastructure\\todo.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Todo.Infrastructure",
+              "DocumentMoniker": "D:\\Development\\TodoApplication\\Backend\\Todo.Infrastructure\\Todo.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "Backend\\Todo.Infrastructure\\Todo.Infrastructure.csproj",
+              "ToolTip": "D:\\Development\\TodoApplication\\Backend\\Todo.Infrastructure\\Todo.Infrastructure.csproj",
+              "RelativeToolTip": "Backend\\Todo.Infrastructure\\Todo.Infrastructure.csproj",
+              "ViewState": "AgIAABcAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-07T06:51:58.316Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Todo.Application",
+              "DocumentMoniker": "D:\\Development\\TodoApplication\\Backend\\Todo.Application\\Todo.Application.csproj",
+              "RelativeDocumentMoniker": "Backend\\Todo.Application\\Todo.Application.csproj",
+              "ToolTip": "D:\\Development\\TodoApplication\\Backend\\Todo.Application\\Todo.Application.csproj",
+              "RelativeToolTip": "Backend\\Todo.Application\\Todo.Application.csproj",
+              "ViewState": "AgIAACYAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-07T06:51:53.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Todo.Api",
+              "DocumentMoniker": "D:\\Development\\TodoApplication\\Backend\\Todo.Api\\Todo.Api.csproj",
+              "RelativeDocumentMoniker": "Backend\\Todo.Api\\Todo.Api.csproj",
+              "ToolTip": "D:\\Development\\TodoApplication\\Backend\\Todo.Api\\Todo.Api.csproj",
+              "RelativeToolTip": "Backend\\Todo.Api\\Todo.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-07T06:46:40.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Development\\TodoApplication\\Backend\\Todo.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Backend\\Todo.Api\\Program.cs",
+              "ToolTip": "D:\\Development\\TodoApplication\\Backend\\Todo.Api\\Program.cs",
+              "RelativeToolTip": "Backend\\Todo.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-07T06:29:46.886Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
