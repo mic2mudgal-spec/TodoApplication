@@ -11,7 +11,7 @@ public class RequiredNameValidator : ITaskValidator
             : context.UpdateRequest!.Name;
 
         if (string.IsNullOrWhiteSpace(name))
-            throw new ValidationException("Task name is required.");
+            throw new ValidationException(ErrorMessages.TaskNameRequired);
 
         return Task.CompletedTask;
     }

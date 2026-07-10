@@ -20,7 +20,7 @@ public class DuplicateNameValidator : ITaskValidator
                 context.CreateRequest!.Name))
             {
                 throw new ValidationException(
-                    "Task name already exists.");
+                    ErrorMessages.TaskNameAlreadyExists);
             }
         }
         else
@@ -30,7 +30,7 @@ public class DuplicateNameValidator : ITaskValidator
                 context.UpdateRequest.Id))
             {
                 throw new ValidationException(
-                    "Task name already exists.");
+                    ErrorMessages.TaskNameAlreadyExists);
             }
         }
     }

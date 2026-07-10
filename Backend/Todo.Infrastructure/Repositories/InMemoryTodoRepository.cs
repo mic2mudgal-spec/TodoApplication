@@ -1,5 +1,6 @@
 using Todo.Domain.Entities;
 using Todo.Domain.Interfaces;
+using TaskStatus = Todo.Domain.Enums.TaskStatus;
 
 namespace Todo.Infrastructure.Repositories;
 
@@ -8,6 +9,30 @@ public class InMemoryTodoRepository : ITodoRepository
     private readonly List<TodoTask> _tasks = [];
     private readonly object _lock = new();
 
+
+    public InMemoryTodoRepository()
+    {
+        _tasks.Add(new TodoTask() {
+            Id = Guid.NewGuid(),
+            Name = "Task 1",
+        Priority = 1,
+        Status= TaskStatus.NotStarted
+        });
+        _tasks.Add(new TodoTask()
+        {
+            Id= Guid.NewGuid(),
+            Name = "Task 2",
+            Priority = 1,
+            Status=TaskStatus.InProgress
+        });
+        _tasks.Add(new TodoTask()
+        {
+            Id = Guid.NewGuid(),
+            Name = "Task 3",
+            Priority = 1,
+            Status = TaskStatus.Completed
+        });
+    }
     public Task<IEnumerable<TodoTask>> GetAllAsync()
     {
         lock (_lock)

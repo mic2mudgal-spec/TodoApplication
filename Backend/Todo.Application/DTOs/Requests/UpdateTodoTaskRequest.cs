@@ -1,14 +1,6 @@
-using Todo.Domain.Enums;
-
+using Todo.Application.DTOs.Responses;
 namespace Todo.Application.DTOs.Requests;
 
-public class UpdateTodoTaskRequest
+public class UpdateTodoTaskRequest : TodoTaskResponse
 {
-    public Guid Id { get; set; }
-
-    public string Name { get; set; } = string.Empty;
-
-    public int Priority { get; set; }
-
-    public Todo.Domain.Enums.TaskStatus Status { get; set; }
 }
