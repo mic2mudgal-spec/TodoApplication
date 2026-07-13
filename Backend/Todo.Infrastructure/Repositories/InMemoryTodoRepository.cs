@@ -66,7 +66,7 @@ public class InMemoryTodoRepository : ITodoRepository
         {
             var existing = _tasks.First(t => t.Id == task.Id);
 
-            existing.Name = task.Name;
+            existing.Name = task.Name.Trim();
             existing.Priority = task.Priority;
             existing.Status = task.Status;
         }
@@ -93,7 +93,7 @@ public class InMemoryTodoRepository : ITodoRepository
         {
             return Task.FromResult(
                 _tasks.Any(t =>
-                    t.Name.Equals(name,
+                    t.Name.Equals(name.Trim(),
                         StringComparison.OrdinalIgnoreCase)));
         }
     }
@@ -105,7 +105,7 @@ public class InMemoryTodoRepository : ITodoRepository
             return Task.FromResult(
                 _tasks.Any(t =>
                     t.Id != excludeId &&
-                    t.Name.Equals(name,
+                    t.Name.Equals(name.Trim(),
                         StringComparison.OrdinalIgnoreCase)));
         }
     }
