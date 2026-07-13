@@ -1,0 +1,40 @@
+.form-group{
+
+    margin-bottom:20px;
+
+}
+
+label{
+
+    display:block;
+
+    margin-bottom:6px;
+
+    font-weight:bold;
+
+}
+
+input,
+select{
+
+    width:100%;
+
+    padding:10px;
+
+    box-sizing:border-box;
+
+}
+
+small{
+
+    color:red;
+
+}
+
+.button-group{
+
+    display:flex;
+
+    gap:10px;
+
+}

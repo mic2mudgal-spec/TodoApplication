@@ -1,0 +1,99 @@
+<form
+    [formGroup]="taskForm()"
+    (ngSubmit)="save.emit()">
+
+    <div class="form-group">
+
+        <label>
+
+            Task Name
+
+        </label>
+
+        <input
+            type="text"
+            formControlName="name">
+
+        @if(taskForm().controls['name'].touched &&
+            taskForm().controls['name'].invalid){
+
+        <small>
+
+            Task Name is required.
+
+        </small>
+
+        }
+
+    </div>
+
+    <div class="form-group">
+
+        <label>
+
+            Priority
+
+        </label>
+
+        <input
+            type="number"
+            formControlName="priority">
+
+        @if(taskForm().controls['priority'].touched &&
+            taskForm().controls['priority'].invalid){
+
+        <small>
+
+            Priority must be between 1 and 10.
+
+        </small>
+
+        }
+
+    </div>
+
+    <div class="form-group">
+
+        <label>
+
+            Status
+
+        </label>
+
+        <select
+            formControlName="status">
+
+            @for(status of statusList; track status.value){
+
+            <option
+                [ngValue]="status.value">
+
+                {{status.text}}
+
+            </option>
+
+            }
+
+        </select>
+
+    </div>
+
+    <div class="button-group">
+
+        <button type="submit">
+
+            {{isEditMode() ? 'Update Task' : 'Save Task'}}
+
+        </button>
+
+        <button
+            type="button"
+            (click)="cancel.emit()">
+
+            Cancel
+
+        </button>
+
+    </div>
+
+</form>

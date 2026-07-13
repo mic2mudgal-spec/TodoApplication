@@ -1,0 +1,15 @@
+<app-message [successMessage]="successMessage"
+             [errorMessage]="errorMessage">
+</app-message>
+
+<app-task-form [taskForm]="taskForm"
+               [isEditMode]="isEditMode"
+               (save)="save()"
+               (cancel)="clear()">
+</app-task-form>
+
+<app-task-list [tasks]="tasks"
+               [isEditMode]="isEditMode"
+               (edit)="edit($event)"
+               (delete)="delete($event)">
+</app-task-list>

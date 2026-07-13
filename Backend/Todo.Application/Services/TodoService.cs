@@ -58,7 +58,7 @@ public class TodoService : ITodoService
         if (existing == null)
             throw new NotFoundException(ErrorMessages.TaskNotFound);
 
-        if (await _repository.ExistsByNameAsync(request.Name, request.Id))
+        if (await _repository.ExistsByNameAsync(request.Name))
             throw new ValidationException(ErrorMessages.TaskNameAlreadyExists);
 
         existing.Name = request.Name.Trim();
