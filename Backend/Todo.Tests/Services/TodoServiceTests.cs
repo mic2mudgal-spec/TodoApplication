@@ -50,6 +50,18 @@ public class TodoServiceTests
             await _fixture.Service.CreateAsync(request));
     }
 
+    [Test]
+    public void CreateTask_Negative_WhenNameEmpty_ThrowsValidationException()
+    {
+        // Arrange
+        var request = BuildCreateRequest(name: "   ");
+        MockRepositoryNameExists(false);
+
+        // Act & Assert
+        Assert.ThrowsAsync<ValidationException>(async () =>
+            await _fixture.Service.CreateAsync(request));
+    }
+
     [TestCase(1)]
     [TestCase(5)]
     [TestCase(10)]

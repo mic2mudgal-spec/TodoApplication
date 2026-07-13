@@ -69,6 +69,7 @@ export class HomeComponent implements OnInit {
       '',
       [
         Validators.required,
+        Validators.minLength(1),
         Validators.maxLength(100)
       ]
     ],
